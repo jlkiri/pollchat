@@ -83,7 +83,7 @@ router.add("GET", /^\/messages$/, async (server, request) => {
   }
 });
 
-ChatShareServer.prototype.waitForChanges = function(time) {
+ChatServer.prototype.waitForChanges = function(time) {
   return new Promise(resolve => {
     this.waiting.push(resolve);
     setTimeout(() => {
