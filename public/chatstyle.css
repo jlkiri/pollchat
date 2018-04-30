@@ -1,0 +1,77 @@
+*:focus {
+    outline:none;
+}
+
+html,body {
+    height:100%;
+    margin:0;
+}
+
+body * {
+    font-family:"Open Sans", sans-serif;
+    font-weight: lighter;
+}
+
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border:none;
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 32px;
+    display:inline-block;
+    padding:13px;
+}
+
+button:hover {
+    background-color: black; /* Green */
+    color: white;
+}
+
+.main {
+    height:85%;
+    overflow-y:scroll;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:0;
+    height:15%;
+    width:100%;
+}
+
+textarea {
+    border: 1px solid black;
+    resize:none;
+    width:38%;
+    font-size:13px;    
+    margin: 15px 15px 15px 15px;
+    padding:5px;
+}
+
+.message {
+    border-radius: 7px;
+    margin: 15px;
+    padding:5px;
+    width: 40%;
+    background-color: #00bfff;
+}
+
+.message p {
+    margin:10px;
+    word-wrap:break-word;
+    padding:0;
+    color:white;
+}
+
+.message .nickname {
+    color:white;
+    font-weight:bold;
+}
